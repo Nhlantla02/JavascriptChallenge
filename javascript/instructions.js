@@ -53,11 +53,19 @@
 // You're eating Javascript, and again....I'm proud of you!
 ​
 // 8. Declare a variable called lastName and add a value to it(value must be a string)
+let lastName = "Free"
+console.log("Free");
 // 9. Declare a variable called parentsAge and give it a value of 20(value must be a number)
+let parentsAge = 20
+console.log(20);
 // 10. Create an array with called coolCars and give it the following value: ['BMW','Bugati','Ferrari','McLaren', 'Mercedes']
-​
+​let coolCars =  ['BMW','Bugati','Ferrari','McLaren', 'Mercedes']
+console.log(coolCars);
+
 //             Now to manipulate the arrays. ;)
 // 11. Write the code to change the 'McLaren' value to 'Lamborghini' in the array Hint: use indexing to access different values in arrays
+let coolCars = ['BMW','Bugati','Ferrari','McLaren', 'Mercedes']
+console.log(3, 'Lamborghini')
 // 12. Use a for loop to loop through the array, and console.log every value inside of the array.
 // 13. Reverse the array and console.log the reversed array.
 // 14. Write the code to remove the last item in the array(coolCars not the reversed array) and store it in a variable....which means your array of coolCars must look like : ['BMW','Bugati','Ferrari','Lamborghini]
@@ -78,6 +86,13 @@
 // 21. Create an object called chair and give it a 
 //         property of legs and a value of 4,
 //         a secondProperty of material with a value of plastic
+let chair = {
+    firstLeg = "F"
+    secondLeg = "C"
+    thirdLeg ="S"
+    fourthLeg = "P"
+    secondProperty = "U"
+}
 // 22. Write the code that adds a property of 
 //         'armRestBars' with a value of 'none' 
 //         to the chair object.
@@ -99,7 +114,14 @@
 //         this.drivetrains
 ​
 // 26. Create 4 objects of your own and print to the console all of the created objects.
+let car = {
+    carName = "BMW 325i"
+    carModel = "E30"
+    carColor = "Red"
+    car
+}
 // 27. After, push the 4 objects to an array called 'informationAboutCars'.
+let car = []
 // 28. Create a function that can be used 'globally', the function should return a sentence containing all the properties used inside the object, eg 'The car brand Ford has a model of a Figo that was produced in 2019. It is a manual and is a front wheel drive'
 // 29. Make sure to write the above sentences for each car inside the corresponding h4 elements
 // 30. Use the array in question10 that you created and create a conditional statement that check if 'BMW' appears in the array. The console should return 'This item does appear in the array' or 'The item does not appear in the array'
